@@ -1,0 +1,10 @@
+# Environment
+world new_world.wld
+
+# Set visualization on for PSD
+settings VIS TRACE
+
+# Robot description using "S" and "U" in maze as start position
+S4 3000 3000 90 leader.py
+S4 3000 2500 90 worker.py
+S4 3000 2000 90 worker.py
